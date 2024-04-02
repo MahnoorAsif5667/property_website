@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  overflow-x: hidden;
+
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FEC200 !important;
+}
+
+.header {
+  background-color: #E0E0E0;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Adjust the position of icons */
+.icons {
+  display: flex;
+  justify-content: flex-end; /* Align icons towards the left */
+  align-items: center;
+  padding-right: 40px; /* Add some left padding */
+}
+
+/* Style for icons */
+.icons i {
+  margin-right: 10px; /* Add spacing between icons */
+}
+
+
+.navbar-nav .btn-call-now {
+    margin-left: 100px !important;
+}
+
+
+ 
+  /* Center the cards carousel */
+  #cardsCarousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjust top margin as needed */
+  }
+
+  /* Adjust the width of carousel items */
+  #cardsCarousel .carousel-item .card {
+    margin-right: 10px; /* Add some margin between cards */
+  }
+
+.image1_set{
+    max-width: 90% !important;
+    border-radius: 10px;
+    max-height: 410px !important;
+}
+
+.image2_set{
+    max-width: 90% !important;
+    max-height: 410px !important;
+    border-radius: 10px;
+
+}
+
+.image3_set{
+    max-width: 90% !important;
+    max-height: 410px !important;
+    border-radius: 10px;
+
+
+}
+
+.grey_h{
+   max-height: 200% !important;
+}
+
+.btn-circle {
+    border-radius: 200% !important;
+    width: 110px;
+    height: 110px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-circle:hover{
+    background-color: #FEC200 !important;
+    border-color: #FEC200 !important;
+
+  }
+/* form button hover  */
+.button_hover:hover{
+  color:#FEC200 !important;
+  background-color: white !important;
+
+}
+
+.background {
+  background-image: url('images1/house-design.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.content-container {
+  background-color: rgba(128, 128, 128, 0.5); /* Grey color with light opacity */
+  padding: 20px; /* Increase padding to increase height */
+  border-radius: 10px;
+  color: white; /* Text color */
+  max-width: 90%; /* Set maximum width */
+}
+
+.content-container h2 {
+  margin-bottom: 20px; /* Increase margin to add space between heading and paragraph */
+}
+
+.form-container {
+  background-color: rgba(128, 128, 128, 0.5); /* Grey color with light opacity */
+  padding: 30px; /* Increase padding to increase height */
+  border-radius: 10px;
+  color: white; /* Text color */
+  max-width: 90%; /* Set maximum width */
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container select,
+.form-container textarea,
+.form-container button {
+  margin-bottom: 15px; /* Add spacing between inputs */
+  width: 100%;
+}
+
+/* Adjust styles for larger screens */
+@media (min-width: 992px) {
+  .content-container,
+  .form-container {
+    margin-left: auto; /* Align to right */
+    margin-right: auto; /* Align to left */
+    margin-top: 10vh; /* Center vertically */
+  }
+}
+
+.carousel-indicators {
+  bottom: 20px;
+}
+.carousel-indicators button {
+  background-color: #000 !important;
+  border: none;
+  width: 6px !important;
+  height: 6px !important;
+  margin: 0 5px;
+  border-radius: 50% !important;
+}
+
+/* footer hover elements */
+.hover_elements li:hover{
+  /* Add your hover styles here */
+  color: #FEC200;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+                                                  /* PAGE 2 */
+/* project page styling start  */
+
+/* top background image  */
+.background-container {
+  height: 250px; /* Set the height of the container */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)) , url("images1/building-1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* Ensure the background covers the entire width */
+}
+
+/* Adjust background responsiveness as needed */
+@media (max-width: 768px) {
+  .background-container {
+      height: 300px; /* Adjust height for smaller screens */
+  }
+}
+
+.para_grey_content{
+  color: black;
+  font-size:medium;
+  font-weight: 350;
+}
+
+ /* Define the border style */
+.image-border {
+  border: 5px solid #FEC200; /* Adjust the border width and color as needed */
+  padding-right: 10px; /* Default padding for the content inside the border */
+  padding-bottom: 5px;
+}
+
+/* Make the image responsive */
+.image-border img {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default image spacing */
+  position: relative;
+  top: -40px; /* Adjust vertical positioning to overlap the border */
+  left: -40px; /* Adjust horizontal positioning to overlap the border */
+}
+
+.underline {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #FEC200; /* Change color, thickness, and style as needed */
+}
+
+/*bullet arrow styling*/
+.arrow {
+  border: solid #FEC200 ;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* banner slider image  */
+#banner{
+  background-image: url("images1/CTA-bg-1.jpg");
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: top 70px center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;   
+  /* margin-bottom:40px; */
+}
+#banner h4{
+  color:#D8D8D8;
+
+}
+#banner h1{
+  color: #fff
+
+}
+#banner button{
+  background-color: #fb774b;
+}
+
+.cover {
+  height: 40vh;
+  /* padding: 20px; */
+} 
+
+
